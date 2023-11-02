@@ -1,0 +1,29 @@
+{
+  "name": "blogapp-cassandra",
+  "version": "1.0.0",
+  "description": "blog app backend using cassandra as database",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJs",
+    "cassandra"
+  ],
+  "author": "AnishPowar01",
+  "license": "ISC",
+  "dependencies": {
+    "@astrajs/collections": "^0.3.4",
+    "@astrajs/rest": "^0.3.4",
+    "cassandra-driver": "^4.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "express-sessions": "^1.0.6",
+    "nodemon": "^3.0.1",
+    "uuid": "^9.0.1"
+  }
+}
